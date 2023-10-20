@@ -13,7 +13,9 @@
   font-size: 20px;
   font-family: 'Inter', sans-serif;
   font-weight: 500;
+  margin-right: 30px;
 }
+
 
 .menu-link:hover{
   color: #808080;
@@ -106,6 +108,32 @@
 
 .buttons__btn-resume a:hover{
   text-decoration: underline;
+}
+
+
+/* Portfolio */
+.portfolio{
+  margin-top: 150px;
+}
+
+.h2{
+  font-family: 'Poppins', sans-serif;;
+  font-weight: 800;
+  font-size: 60px;
+  color: black;
+  text-decoration: overline;
+}
+
+.project img{
+  width: 400px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.work-projects{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
 }
 
 @media all and (max-width: 800px){

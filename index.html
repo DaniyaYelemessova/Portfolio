@@ -18,20 +18,30 @@
   <body>
     <div class="container">
     <header>
-    <ul class="nav justify-content-center p-3">
-      <li class="nav-item">
-        <a class="nav-link active menu-link" aria-current="page" href="#home">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link menu-link" href="#">Work</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link menu-link" href="#">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link menu-link" href="#">Contact</a>
-      </li>
-    </ul>
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid ">
+          <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+          <button class="navbar-toggler white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav p-3">
+              <li class="nav-item">
+                <a class="nav-link menu-link" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link menu-link" href="#portfolio">Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link menu-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link menu-link" aria-disabled="true">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <main id="home">
@@ -48,12 +58,36 @@
 
             <div class="buttons">
               <button class="buttons__btn-work"><a href="https://github.com/DaniyaYelemessova" target="_blank">View work</a></button>
-              <button class="buttons__btn-resume"><a href="https://daniyacollings.netlify.app/" target="_blank">Resume</a></button>
+              <button class="buttons__btn-resume"><a href="#">Resume</a></button>
             </div>
           </div>
         </div>
       </section>
     </main>
+
+    <section class="portfolio" id="portfolio">
+      <h2 class="h2">WORK</h2>
+      <div class="work-projects">
+        <div class="project">
+          <img src="images/cosmetology.jpg" alt="website for cosmetology">
+          <div class="description">
+            <p>Cosmetology space</p>
+          </div>
+        </div>
+
+        <div class="project">
+          <img src="images/burger.jpg" alt="burger website">
+        </div>
+
+        <div class="project">
+          <img src="images/computer.jpg" alt="computer game">
+        </div>
+      </div>
+      
+
+    </section>
+
+    
 
 
 
