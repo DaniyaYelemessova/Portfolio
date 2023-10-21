@@ -117,7 +117,7 @@
 }
 
 .h2{
-  font-family: 'Poppins', sans-serif;;
+  font-family: 'Poppins', sans-serif;
   font-weight: 800;
   font-size: 60px;
   color: black;
@@ -126,7 +126,7 @@
 
 .project img{
   width: 400px;
-  height: 100%;
+  height: 300px;
   object-fit: cover;
 }
 
@@ -134,9 +134,37 @@
   display: flex;
   justify-content: space-between;
   gap: 20px;
+  margin-top: 30px;
 }
 
-@media all and (max-width: 800px){
+.description{
+  display: flex;
+  justify-content: space-between;
+}
+
+.description p{
+  margin-top: 20px;
+}
+
+.description a{
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.description a:hover{
+  color: #808080;
+  cursor: pointer;
+}
+
+
+/* About */
+
+
+
+@media all and (max-width: 900px){
   .main__info{
     display: flex;
     flex-direction: column;
@@ -153,6 +181,22 @@
 
   .buttons{
     flex-direction: row;
+  }
+
+  .h2{
+    text-align: center;
+  }
+
+  .work-projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project img{
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
   }
 }
 
@@ -173,6 +217,12 @@
 
   .buttons{
     flex-direction: row;
+  }
+
+  .project img{
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
   }
 }
 
