@@ -4,9 +4,16 @@
   padding: 0;
 }
 
+
+html{
+  scroll-behavior: smooth;
+}
+
 .container{
   max-width: 1200px;
+  overflow: hidden;
 }
+
 
 .menu-link{
   color: black;
