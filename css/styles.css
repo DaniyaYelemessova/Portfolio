@@ -205,6 +205,20 @@
   border: none;
 }
 
+
+
+.accordion-button{
+  background-color: transparent;
+}
+.accordion-button:not(.collapsed) {
+  background-color: #f4f4f4;
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+
+
 @media all and (max-width: 900px){
   .main__info{
     display: flex;
@@ -239,6 +253,17 @@
     height: 300px;
     object-fit: cover;
   }
+
+  .about-me{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .my-photo img{
+    display: none;
+  }
+  
 }
 
 @media all and (max-width: 400px){
