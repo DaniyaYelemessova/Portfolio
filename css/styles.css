@@ -75,15 +75,15 @@ html{
 
 .buttons__btn-work{
   padding: 20px 30px;
-  background-color: #06fbce ;
-  color: black;
+  background-color: #81b1ce ;
+  color: white;
   border: none;
   border-radius: 5px;
 }
 
 
 .buttons__btn-work a{
-  color: black;
+  color: white;
   font-family: 'Inter', sans-serif;
   font-weight: 600;
   letter-spacing: 1.5px;
@@ -135,6 +135,7 @@ html{
   width: 400px;
   height: 300px;
   object-fit: cover;
+  border-radius: 5px;
 }
 
 .work-projects{
@@ -180,6 +181,7 @@ html{
 .my-photo img{
   border: 3px solid black;
   margin-right: 50px;
+  border-radius: 5px;
 }
 
 .me-text p{
@@ -234,13 +236,47 @@ html{
 .contact-row{
   display: flex;
   justify-content: space-between;
+  gap: 30px;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .col{
-  width: 300px;
+  font-family: 'Poppins', sans-serif;
+  background-color: #81b1ce;
+  padding: 20px;
+  width: 250px;
   float: left;
   text-align: center;
+  border-radius: 5px;
+}
+
+.title{
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.subtitle{
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.contact-btn, .col-a{
+  margin-top: 20px;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  background: transparent;
+  font-size: 13px;
+  color: white;
+}
+
+.col img{
+  color: white;
+  margin-bottom: 10px;
 }
 
 
