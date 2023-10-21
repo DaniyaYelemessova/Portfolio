@@ -205,8 +205,6 @@
   border: none;
 }
 
-
-
 .accordion-button{
   background-color: transparent;
 }
@@ -217,6 +215,13 @@
 .accordion-button:focus {
   box-shadow: none !important;
 }
+
+/* Contact */
+
+.contact{
+  margin-top: 150px;
+}
+
 
 
 @media all and (max-width: 900px){
