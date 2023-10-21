@@ -231,6 +231,18 @@ html{
   margin-top: 150px;
 }
 
+.contact-row{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.col{
+  width: 300px;
+  float: left;
+  text-align: center;
+}
+
 
 
 @media all and (max-width: 900px){
