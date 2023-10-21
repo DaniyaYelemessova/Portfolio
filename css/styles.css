@@ -182,7 +182,7 @@
 }
 
 .me-text span{
-  color: #06fbce;
+  color:#000027;
   font-weight: 800;
 }
 
@@ -207,6 +207,8 @@
 
 .accordion-button{
   background-color: transparent;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
 }
 .accordion-button:not(.collapsed) {
   background-color: #f4f4f4;
