@@ -161,8 +161,49 @@
 
 
 /* About */
+.about{
+  margin-top: 100px;
+}
 
+.about-me{
+  display: flex;
+  margin-top: 50px;
+}
 
+.my-photo img{
+  border: 3px solid black;
+  margin-right: 50px;
+}
+
+.me-text p{
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.me-text span{
+  color: #06fbce;
+  font-weight: 800;
+}
+
+.h3{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.me-text ol{
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+}
+
+.me-text ol li{
+  padding: 10px;
+}
+
+.accordion-item{
+  border: none;
+}
 
 @media all and (max-width: 900px){
   .main__info{
