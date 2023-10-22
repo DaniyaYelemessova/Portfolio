@@ -178,6 +178,23 @@ html{
   text-decoration: none;
 }
 
+.portfolio-buttons{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.portfolio-buttons a{
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+}
+
+.portfolio-buttons a:hover{
+  color: #75c9b7;
+}
+
 
 /* About */
 .about{
