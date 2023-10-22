@@ -75,7 +75,7 @@ html{
 
 .buttons__btn-work{
   padding: 20px 30px;
-  background-color: #81b1ce ;
+  background-color: #75c9b7;
   color: white;
   border: none;
   border-radius: 5px;
@@ -253,7 +253,7 @@ html{
 
 .col{
   font-family: 'Poppins', sans-serif;
-  background-color: #81b1ce;
+  background-color: #16123f;
   padding: 20px;
   width: 250px;
   float: left;
@@ -265,7 +265,7 @@ html{
   color: white;
   font-size: 15px;
   font-weight: 600;
-  margin-bottom: 0;
+  margin-bottom: 8px;
 }
 
 .subtitle{
@@ -307,7 +307,7 @@ html{
   width: 50px;
   height: 20px;
   border-radius: 5px;
-  background-color: #81b1ce;
+  background-color:  #ffe26a;
 }
 
 .line2{
