@@ -6,7 +6,7 @@
 
 * HTML
 * CSS
-* Bootstrap fro styling
+* Bootstrap for styling
 * GSAP for animation
 * Visual Studio Code
 * Visual Studio
