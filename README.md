@@ -26,10 +26,10 @@
 3. Contact me using the provided form for inquiries or collaboration opportunities.
 
 ## Link to site on Github Pages:
-* [GitHub page link] (https://github.com/DaniyaYelemessova/Portfolio.git)
+* [GitHub page link](https://github.com/DaniyaYelemessova/Portfolio.git)
 
 ## Deployment:
-* [Project online] (https://daniyayelemessova.github.io/Portfolio/)
+* [Project online](https://daniyayelemessova.github.io/Portfolio/)
 
 
 ## Known Issues
