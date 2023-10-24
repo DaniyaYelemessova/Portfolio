@@ -24,7 +24,7 @@
 Follow these steps to set up the Portfolio Landing Page project on your local machine:
 
 To get started, you'll need to clone this repository to your local machine. Open your terminal or command prompt and use the following command to do so:
-1. git clone https://github.com/your-username/portfolio-landing-page.git
+1. git clone https://github.com/DaniyaYelemessova/Portfolio.git
 2. Navigate to the Project Directory, using **cd**
 3. Open the project using **code .**
 
