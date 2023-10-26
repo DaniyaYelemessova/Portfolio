@@ -49,5 +49,5 @@ To get started, you'll need to clone this repository to your local machine. Open
 
 ## License
 
-MIT License
+- [MIT License](https://choosealicense.com/licenses/mit/)
 Copyright © 10-23-2023 Daniya Yelemessova
